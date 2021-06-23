@@ -11,7 +11,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        Multiset<String> animals = HashMultiset.create();
+        
+    	// use google guava
+    	Multiset<String> animals = HashMultiset.create();
         animals.add("cat");
         animals.add("cat");
         animals.add("dog");
